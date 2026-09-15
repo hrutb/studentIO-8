@@ -64,7 +64,7 @@ export class StudentFormComponent implements OnInit {
                   },
                    error:err=>{
                     this._snackbar.open(err);
-                    // console.log(err);
+                    console.log(err);
                    }
            })
     }

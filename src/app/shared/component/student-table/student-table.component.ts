@@ -61,6 +61,7 @@ export class StudentTableComponent implements OnInit {
               this._snackbar.open(err)
             }
           })
+
         }
       },
       error: err => {

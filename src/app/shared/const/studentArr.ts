@@ -1,6 +1,5 @@
 import { Istudent } from "../model/student-model";
 
-
 export const students:Istudent[] = [
                     {
                       fname: 'Hrutwik',

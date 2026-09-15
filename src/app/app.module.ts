@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatDialogModule} from '@angular/material/dialog';
 import { GetConfirmComponent } from './shared/component/get-confirm/get-confirm.component';
+import { MemoryTestComponent } from './shared/component/memory-test/memory-test.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { GetConfirmComponent } from './shared/component/get-confirm/get-confirm.
     StudentDashboardComponent,
     StudentFormComponent,
     StudentTableComponent,
-    GetConfirmComponent
+    GetConfirmComponent,
+    MemoryTestComponent
   ],
   imports: [
     BrowserModule,
